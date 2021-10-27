@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(to right, #fbfffc, #000000);
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #f5fffe;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-item: center;
+}
+
+.calculator {
+  width: 470px;
+  padding: 30px;
+  border-radius: 5px;
+  margin: 30px auto;
+  font-size: 22px;
+  background-color: #ffffff;
+}
+
+.input {
+  width: 450px;
+  height: 70px; 
+  border-radius: 12px;
+  border: 2px solid black;
+  background-color: #ffecec;
+  color: #000000;
+  padding: 0 5px 0 5px;
+  margin: 0 0px 10px 0px;
+  font-size: 40px;
+}
+
+.input:focus,
+.input:active {
+  border-color: #fdfdfd;
+  box-shadow: 0 0 4px #ffffff;
+  outline: none 0;
+}
+
+.button {
+  margin: 6px;
+  width: 66px;
+  border: 1px solid #0d0d0d;
+  height: 30px;
+  border-radius: 8px;
+  color: #070505;
+  background-color: #c7b5b5;
+  cursor: pointer;
+  outline: none;
+}
+
+.mode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.equal-sign {
+  background-color: rgb(159, 131, 202);
+  width: 133px;
+}
+
+.toggle-button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  font-size: 1rem;
+  color: #000000;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.35);
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+button::-moz-focus-inner {
+  border-color:  transparent;
+}
